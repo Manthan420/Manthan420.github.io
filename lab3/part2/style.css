@@ -1,5 +1,15 @@
 html {
     font-family: sans-serif;
   }
+  .cool-box{
+   width: 200px;
+   height: 100px;
+   text-align: center;
+   line-height: 100px;
+  }
+  
+  
+
+  
   
   /* Your CSS below here */
