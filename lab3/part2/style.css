@@ -8,6 +8,8 @@ html {
    line-height: 100px;
    font-size: 1.1rem; /* 1rem = 16px, so 1.1rem = 17.6px */
    background-color: #ff0000; /* Red color */
+   color: white; 
+   text-shadow: 1px 1px 2px black;
   }
   body {
     display: flex;
