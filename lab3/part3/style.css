@@ -71,3 +71,29 @@ h3 {
 section p:first-of-type{
   text-indent: 20px;
 } 
+
+a {
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #844;
+}
+
+a:hover {
+  color: #d88;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  font-weight: bold;
+}
+
+/* Remove focus outline */
+a:focus {
+  color: #d88;
+  text-decoration-line: none;
+  outline: none;
+}
