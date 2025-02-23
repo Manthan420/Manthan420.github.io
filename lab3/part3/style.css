@@ -55,4 +55,16 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
 }
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
 
