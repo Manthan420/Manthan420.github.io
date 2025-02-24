@@ -60,3 +60,9 @@ body {
     max-width: 980px;
     margin: 0 auto;
   }
+  .grid{
+   display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: flex-start;
+   }
