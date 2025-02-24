@@ -47,3 +47,16 @@ body {
   .feature {
       width: 200px;
   }
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+  }
