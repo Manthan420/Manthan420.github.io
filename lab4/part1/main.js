@@ -10,3 +10,16 @@ const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. W
 const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
 const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+// Adds event listener to the button
+randomize.addEventListener('click', result);
+function result() {
+  // Replaces placeholders with random values
+  let newStory = storyText;
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
+
+  newStory = newStory.replaceAll(':insertx:', xItem);
+  newStory = newStory.replace(':inserty:', yItem);
+  newStory = newStory.replace(':insertz:', zItem);
+}
