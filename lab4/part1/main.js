@@ -23,3 +23,8 @@ function result() {
   newStory = newStory.replace(':inserty:', yItem);
   newStory = newStory.replace(':insertz:', zItem);
 }
+  // Replaces default name 'Bob' with user input if provided
+  if (customName.value !== '') {
+    const name = customName.value;
+    newStory = newStory.replace('Bob', name);
+  }
