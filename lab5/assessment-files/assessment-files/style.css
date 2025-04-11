@@ -52,11 +52,14 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: #004400;/* dark green*/
+}
+div[class="nav"] a{
+  color: white;/* improve contranst */
 }
 
 article, footer, .secondary {
-  padding: 10px 30px;
+  padding: 10px 30px; 
 }
 
 article {
